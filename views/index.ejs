@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Labbo</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+    rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <a href="/"><img src="img/labbo_grupo.png" alt="" title="" /></img></a>
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#">quem somos</a></li>
+          <li><a href="#">soluções</a></li>
+          <li><a href="#">resultado</a></li>
+          <li><a href="#">contato</a></li>
+          <li class="menu-active"><a href="">orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-container">
+      <h1>queremos<br>ouvir você</h1>
+    </div>
+  </section><!-- #main -->
+
+  <main id="main">
+
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-sm-4">
+            <h2 class="title container">lorem ipsum<br>dolor sit amet</h2>
+            <p class="container">
+              Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+            <p class="container">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehender in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur.
+              Excepteur sint occaecat cupidatat non proident. sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
+            </p>
+          </div>
+          <div class="col-sm-8">
+            <form action="/contate-nos" method="post" data-toggle="validator" role="form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label class="label-form" for="inputName">nome</label>
+                  <input type="text" name="nome" class="form-control" id="inputName" placeholder="meu nome" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label class="label-form" for="inputEmpresa">empresa</label>
+                  <input type="text" name="empresa" class="form-control" id="inputEmpresa" placeholder="empresa"
+                    required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label class="label-form" for="inputEmail">e-mail</label>
+                  <input type="email" name="email" class="form-control" id="inputEmail" placeholder="meu e-mail"
+                    required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label class="label-form" for="inputTelefone">telefone</label>
+                  <input type="text" name="telefone" class="form-control" id="inputTelefone" placeholder="redes sociais"
+                    required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label class="label-form" for="inputColaboradores">quantos colaboradores</label>
+                  <select name="qntColaboradores" id="inputColaboradores" class="form-control" required>
+                    <option value="" disabled selected hidden>informe quantidade</option>
+                    <option>1-10</option>
+                    <option>10-50</option>
+                    <option>50-150</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <label class="label-form" for="inputVerbaMkt">verba de marketing</label>
+                  <select name="verbaMarketing" id="inputVerbaMkt" class="form-control" required>
+                    <option value="" disabled selected hidden>informe valor</option>
+                    <option>R$100 à R$500</option>
+                    <option>R$500 à R$1.000</option>
+                    <option>Acima de R$1.000</option>
+                  </select>
+                </div>
+                <!--Radio buttom-->
+                <div class="container radio-buttom">
+                  <div class="row">
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="e-mailMkt"
+                        value="E-mail marketing">
+                      <label for="e-mailMkt">E-mail marketing</label>
+                    </div>
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="campanhas"
+                        value="Campanhas">
+                      <label for="campanhas">Campanhas</label>
+                    </div>
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="e-mailMkt2"
+                        value="E-mail marketing 2">
+                      <label for="e-mailMkt2">E-mail marketing</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="redes-sociais"
+                        value="redes sociais">
+                      <label for="redes-sociais">Redes sociais</label>
+                    </div>
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="landing-pages"
+                        value="landing-pages">
+                      <label for="landing-pages">Landing Pages</label>
+                    </div>
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="redes-sociais2"
+                        value="redes sociais2">
+                      <label for="redes-sociais2">Redes sociais</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="Sites"
+                        value="Sites">
+                      <label for="Sites">Sites</label>
+                    </div>
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse"
+                        id="SiteInstitucional" value="Site Institucional">
+                      <label for="SiteInstitucional">Site institucional</label>
+                    </div>
+                    <div class="col">
+                      <input class="form-check-input position-static" type="radio" name="interesse" id="Sites2"
+                        value="Sites2">
+                      <label for="Sites2">Sites</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="container row" style="padding-left: 3px;">
+                  <div class="col-md-12">
+                    <label class="label-form" for="inputConte">conte mais sobre o que você precisa</label>
+                    <input type="text" name="observacao" class="form-control" id="inputConte" placeholder="meu nome" required>
+                  </div>
+                </div>
+
+              </div>
+              <button class="btn-enviar" type="submit">enviar<img class="special-img" src="img/plane.png" width="30"
+                  height="30"></button>
+            </form>
+            
+          <div class="container" style="color:#2dc947;font-size: 12px;">
+            <%if(sucess == 'Seu contato foi salvo, em breve retornaremos o contato!'){%>
+              <ul>
+                  <li>
+                      <%=sucess%>
+                  </li>
+              </ul>
+              <%}%>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- #about -->
+
+    <!--Contate-->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">nossas soluções</h3>
+          <p class="section-description">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do eiusmod tempor
+          </p>
+        </div>
+        <div class="container" style="margin-left: 60px;">
+          <div class="row">
+            <div class="col">
+              <div class="container special-card" style="width: 10rem;">
+                <img class="special-img" src="img/2067595.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">sites</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="contaier special-card" style="width: 8rem;">
+                <img class="special-img" src="img/811855.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">google ads</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="special-card" style="width: 8rem;">
+                <img class="special-img" src="img/1997928.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">facebook</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="special-card" style="width: 8rem;">
+                <img class="special-img" src="img/902765.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">redes sociais</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" style="margin-left: 60px;">
+          <div class="row">
+            <div class="col">
+              <div class="container special-card" style="width: 10rem;">
+                <img class="special-img" src="img/1124310.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">loja virtual</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="contaier special-card" style="width: 8rem;">
+                <img class="special-img" src="img/1085842.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">suporte e evolução</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="special-card" style="width: 8rem;">
+                <img class="special-img" src="img/1268042.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">e-mail marketing</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="special-card" style="width: 8rem;">
+                <img class="special-img" src="img/1644060.svg" width="50" height="50" alt="Card image cap">
+                <h6 class="special-h6">seo</h6>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do<br><span
+                    class="green-seta">→</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- #contact -->
+
+
+    <!--#contact2-->
+    <section id="contact2">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title" style="padding-top: 30px;">nossas soluções</h3>
+          <p class="section-description">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do eiusmod tempor
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="container" style="width: 18rem;">
+                <img class="card-img" src="img/soldador.png" alt="Card image cap">
+                <div class="img-Text">promoney</div>
+                <div class="img-Text2">website</div>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do eiusmod tempor.
+                  Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container" style="width: 18rem;">
+                <img class="card-img" src="img/cranio.jpg" alt="Card image cap">
+                <div class="img-Text">top image</div>
+                <div class="img-Text2">website</div>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do eiusmod tempor.
+                  Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container" style="width: 18rem;">
+                <img class="card-img" src="img/equipe.jpg" alt="Card image cap">
+                <div class="img-Text">plansul</div>
+                <div class="img-Text2">website</div>
+                <p class="text-card">Lorem ipsum dolor sit amet. consectetur adipiscing elit. sed do eiusmod tempor.
+                  Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--#contact2-->
+
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a style="padding-left:160px" href="/"><img src="img/labbo_grupo_rodape.png" alt="" title="" /></img></a>
+        </div>
+        <div class="col-md-4">
+          <p class="text-footer">Os detalhes não são os detalhes.<br>Eles fazem o design.</p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-footer">Sempre on.</p>
+          <ul class="tm-social-networks style-icons skin-dark layout-inline list-unstyled">
+            <a style="padding: 10px;" href="" target="_blank" aria-label="Instagram" class="link ">
+              <i class="fa fa-instagram link-icon"></i> </a>
+            <a style="padding: 10px;" href="" target="_blank" aria-label="LinkedIn" class="link">
+              <i class="fa fa-linkedin link-icon"></i> </a>
+            <a style="padding: 10px;" href="" target="_blank" aria-label="Google" class="link">
+              <i class="fa fa-google-plus link-icon"></i> </a>
+            <a style="padding: 10px;" href="" target="_blank" aria-label="Facebook" class="link">
+              <i class="fa fa-facebook-official link-icon"></i> </a>
+            <a style="padding: 10px;" href="" target="_blank" aria-label="Twitter" class="link ">
+            <i class="fa fa-twitter link-icon"></i> </a>
+          </ul>
+          <p style="font-weight: bold;">Feito com <span style="color:#2dc947">♡</span></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" style="margin-top: -32px;">
+            <p class="text-center">Como chegar.</p>
+            <p class="text-menor">Rod. SC 401 Km 05 - Nº 5025 - Sala 12<br>88032-005 Florianopólis,SC-Brasil</p>
+          </div>
+          <div class="col" style="margin-top: -32px;">
+            <p class="text-ola">Diga olá</p>
+            <p class="text-menor-ola">contato@labbo.com.br<br>55 48 3225 5908</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
